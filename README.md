@@ -58,3 +58,9 @@ follow this guide through making the macos installer itself, up to the point whe
 ### Post-Install
 
 I recommend once you have installed macOS and copied over the EFI folder to the hard drives EFI partition that you randomise your UUID and serial number. You should also be able to remove `-v` from the boot args if it is booting stable.
+
+### bonus!!!
+
+Heres a wallpaper i made for the E580 using Lenovos service manual. Its in full 1080p too and looks great on the ThinkPads display.
+
+![Wallpaper](https://bonemeal.xyz/assets/e580wallpaper.png)
