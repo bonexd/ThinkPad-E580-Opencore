@@ -31,6 +31,10 @@ The specfic model E580 i got came with the RTL8822BE wifi card, this is not comp
 
 If you purchased the model E580 with the m.2 NVMe drive, you will need to swap it out for another NVMe drive or put a sata ssd into the sata slot in the laptop. the PM981 will cause kernel panics when trying to install to it, format it, clone os and resize it, etc...
 
+### Install
+
+something i forgot to do is re-add -v to the boot args, youll find the line for the boot args under NVRAM, where alcid=15 is, add ` -v` after that. it isnt required to boot but if something does go wrong during the boot/install its extremely helpful
+
 ### Post-Install
 
 I recommend once you have installed macOS and copied over the EFI folder to the hard drives EFI partition that you randomise your UUID and serial number. You should also be able to remove `-v` from the boot args if it is booting stable.
