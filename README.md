@@ -1,6 +1,14 @@
 # Opencore 0.6.1 EFI for the Lenovo ThinkPad E580
 Tested on 20KSA00SAU model with macOS Catalina (10.15.6)
 
+## Disclaimer
+
+As you may already know, swapping out hardware (in the case of the E580, the NVMe drive and the WiFi card) in order to use macOS will void your warranty, it is a safe assumption that most E580s out there are still in warranty now as it isnt that old of a laptop
+
+Also worth noting this EFI might not work as well for you as it did for me. You may need to change some things along the way so it is worth brushing up on Opencore knowledge. The best place for this would be in Dortanias Opencore install guide linked below under Install.
+
+Although unlikely to happen, it is not my fault if this somehow fucks up your hardware.
+
 ### Specs
 * **CPU**: Intel Core i5-8250U 1.6 GHz
 * **RAM**: 16 GB (2 x 8 GB) DDR4-2400
@@ -50,5 +58,3 @@ follow this guide through making the macos installer itself, up to the point whe
 ### Post-Install
 
 I recommend once you have installed macOS and copied over the EFI folder to the hard drives EFI partition that you randomise your UUID and serial number. You should also be able to remove `-v` from the boot args if it is booting stable.
-
-### You may run into other issues, you use this efi folder on your system at your own risk
