@@ -16,12 +16,12 @@ Tested on 20KSA00SAU model with macOS Catalina (10.15.6)
 * Disable Secure Boot
 
 ### What hardware doesnt work?
-* Line/Mic Input (3,5")
-* Card reader
-* Cant use more than 3 fingers on the trackpad at once
-* Samsung PM981 NVMe SSD
-* The Realtek wifi card some models of this laptop come with
-* FN keys do not work for their normal use (volume, brightness, etc..) after sleep, this is a common issue with 80/90 series thinkpads like this one
+1. Line/Mic Input (3,5")
+2. Card reader
+3. Cant use more than 3 fingers on the trackpad at once
+4. Samsung PM981 NVMe SSD
+5. The Realtek wifi card some models of this laptop come with
+6. FN keys do not work for their normal use (volume, brightness, etc..) after sleep, this is a common issue with 80/90 series thinkpads like this one
 
 ### WiFi
 
@@ -38,6 +38,8 @@ The m.2 slot will not accept a sata m.2 ssd, it will only accept NVMe ssds, i fo
 This config includes the required SSDT in order to use the FN key actions as they normally would work under windows, settings button, mic mute, etc...
 
 All you need to do after installing macOS is install the ThinkpadAssistant program which can be found at: https://github.com/MSzturc/ThinkpadAssistant
+
+This however falls fate of the FN key issue on 80/90 series thinkpads, see hardware issue no. 6 above
 
 ### Install
 
