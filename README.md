@@ -1,4 +1,4 @@
-# ThinkPad E580 EFI for Opencore 0.6.1
+# Opencore 0.6.1 EFI for the Lenovo ThinkPad E580
 Tested on 20KSA00SAU model with macOS Catalina (10.15.6)
 
 ### Specs
