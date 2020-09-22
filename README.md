@@ -33,6 +33,12 @@ If you purchased the model E580 with the m.2 NVMe drive, you will need to swap i
 
 The m.2 slot will not accept a sata m.2 ssd, it will only accept NVMe ssds, i found this out the hard way.
 
+### FN Key Actions
+
+This config includes the required SSDT in order to use the FN key actions as they normally would work under windows, settings button, mic mute, etc...
+
+All you need to do after installing macOS is install the ThinkpadAssistant program which can be found at: https://github.com/MSzturc/ThinkpadAssistant
+
 ### Install
 
 https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
