@@ -35,7 +35,9 @@ The m.2 slot will not accept a sata m.2 ssd, it will only accept NVMe ssds, i fo
 
 ### Install
 
-something i forgot to do is re-add -v to the boot args, youll find the line for the boot args under NVRAM, where alcid=15 is, add ` -v` after that. it isnt required to boot but if something does go wrong during the boot/install its extremely helpful
+https://dortania.github.io/OpenCore-Install-Guide/installer-guide/
+
+follow this guide through making the macos installer itself, up to the point where you add the base opencore files, instead of adding them just add the EFI folder from this repo into your installer usbs EFI partition.
 
 ### Post-Install
 
