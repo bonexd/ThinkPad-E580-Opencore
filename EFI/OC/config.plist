@@ -1527,7 +1527,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>alcid=15</string>
+				<string>alcid=15 -v</string>
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>csr-active-config</key>
@@ -1657,6 +1657,7 @@
 			<string>OpenCanopy.efi</string>
 			<string>NvmExpressDxe.efi</string>
 			<string>AudioDxe.efi</string>
+			<string>HFSPlus.efi</string>
 		</array>
 		<key>Input</key>
 		<dict>
