@@ -2,13 +2,12 @@
 Tested on 20KSA00SAU model with macOS Catalina (10.15.6)
 
 ### Specs
-CPU: Intel Core i5-8250U 1.6 GHz
-RAM: 16 GB (2 x 8 GB) DDR4-2400
-SSD: Western Digital Blue NVMe SSD 250GB
-GPU: Intel UHD 620 Graphics
-WiFi: Dell Wireless 1560
-Display: 15.6" FHD IPS 1920x1080
-
+* **CPU**: Intel Core i5-8250U 1.6 GHz
+* **RAM**: 16 GB (2 x 8 GB) DDR4-2400
+* **SSD**: Western Digital Blue NVMe SSD 250GB
+* **GPU**: Intel UHD 620 Graphics
+* **WiFi**: Dell Wireless 1560
+* **Display**: 15.6" FHD IPS 1920x1080
 
 ### BIOS Settings
 * I used BIOS version 1.40, it may work on lower versions too
